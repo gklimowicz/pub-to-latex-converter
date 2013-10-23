@@ -1,0 +1,100 @@
+.ACKNOWLEDGE $(
+.)$
+
+.ALLREFS
+.REFER name, |text of
+. reference|
+.ENDREFS
+
+.APPENDIX |title|, section-name:
+
+.ASIS
+.ENDASIS
+
+.ASIS8
+.ENDASIS
+
+.BEGIN
+.END
+
+.BLANKFIGURE(figure-name, |title|, number)
+e.g., .BLANKFIGURE(FIG1, |The Model 0.0|, 50)
+
+
+.BULLET
+.ENDCROWN (?)
+
+.CENTER
+
+.CROWN(number,number,number)
+.ENDBULLET (?)
+
+.CROWN(number,number,number)
+.ENDCROWN
+
+e.g., .CROWN(8,0,0)
+      .CROWN(5,0,0)
+
+.FLUSH LEFT
+
+.INDENT1_0
+.INDENT2_9
+
+.LIST(number,number,number)
+.ITEM
+.ENDLIST
+
+.NEXT PAGE
+
+.REQUIRE "filename" SOURCE!FILE
+
+.SEC |title|
+
+.SEC |title|, section-name:
+
+.SEND ACKNOWLEDGEMENTS $(
+.)$
+
+.SEND TITLEPAGE $(
+.)$
+
+.SINGLE SPACE
+
+.SKIPTOLINE number
+
+.SKIPLINES number
+
+.SS |subsectiontitle|
+.SS |title|, section-name:
+
+
+.SSS |subsubsectiontitle|
+
+.SSSS |subsubsubsectiontitle|
+
+.SSSSS |subsubsubsubsectiontitle|
+
+.STANDARD BACK
+
+.STARRS
+
+
+
+
+Bracket Notations:
+$a{equation?}
+
+{ASIS}text{ENDASIS}
+
+{FNOTE |footnote-text
+. more-text|}
+
+{REF reference-name}
+
+{SECTIONORCHAPTER}
+
+{SUBSECTIONORSECTION}
+
+{YONSEC section-name}
+
+[&k]

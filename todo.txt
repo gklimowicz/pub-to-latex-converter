@@ -1,0 +1,113 @@
+Everywhere
+        Fix STARRS to box the text in the enclosing BEGIN/END block.
+        Add index entries.
+
+
+Front Matter
+
+6.4 Type Prescriptions
+    Somehow missing curly braces {} <UNIVERSE, {}>.
+
+
+
+
+********************************************************************************
+DONE
+Everywhere
+        Eat blank lines after .ASIS, .CROWN, .BULLET, .LIST
+        Eat blank lines before .END{ASIS,CROWN,BULLET,LIST}
+        Fix issue with [Claim n...]
+        Fix continuations to add a blank at the beginning of the . continuation
+        Fix format of Axiom, Definition, Theorem
+        Change pubasis environment to set fixed-width font.
+        Fix text size of axiomordefinition, as they think the large bold size is hideous.
+        Change inline $A{...} to use same font specification as pubasis environment.
+
+
+Front Matter
+Page i
+     Simply "A Computational Logic"
+
+Page ii
+       Following text at bottom of page
+       This is a volume in the
+       ACM MONOGRAPH SERIES
+
+       Editor: THOMAS A. STANDISH, \emph{University of California at Irvine}
+
+
+       A complete list of titles in this series appears at the end of this volume.
+
+Page iii
+       Under authors:
+       SRI International
+       Menlo Park, California
+
+       At bottom of page:
+       (AP) logo
+       ACADEMIC PRESS
+       A subsidiary of Harcourt Brace Jovanovich, Publishers
+
+       New York   London   Toronto   Sydney   San Francisco
+
+       Remove AP logo
+
+
+Page iv
+       Starting 1/3rd the way down the page, small caps:
+       COPYRIGHT (C) 1979 BY ACADEMIC PRESS
+       (smaller font, or all lower case)ALL RIGHTS RESERVED.
+       no part of this publication may be reproduced or
+       transmitted in any form or by any means, electronic
+       or mechanical, including photocoppy, recording, or any
+       information storage and retrieval system, without
+       permission in writing from the publisher.
+
+
+       ACADEMIC PRESS, INC.
+       111 Fifth Avenue, New York, New York 10003
+
+
+       \emph{United Kindom Edition published by}
+       ACADEMIC PRESS, INC. (LONDON) LTD.
+       24/28 Oval Road, London NW1  7DX
+
+
+       \bold{Library of Congress Cataloging in Publication Data}
+
+       Boyer, Robert S.
+              A Computational Logic
+
+              (ACM monographs series)
+              Includes bibliographic references and index.
+              1.  Automatic theorem proving.   I.  Moore,
+       J Strother, Date       joint author. II. Title.
+       III. Series:   Association of Computing Machinery.
+       ACM monograph series.
+       QA76.9.A96B68    519.4   79-51693
+       ISBN 0-12-122950-5
+
+
+       (small caps, lowercase)
+       printed in the united states of america
+
+       79 81 81 82   9 8 7 6 5 4 3 2 1
+
+Page v
+       A third the page down:
+       To our wives,
+       Anne and Liz
+
+Page vi
+       (blank)
+
+Page vii
+       Add Bibliography to Table of Contents
+        Table of Contents, only two levels deep
+
+Chapter Whatever
+       Fix ascii tree diagrams to correct figure of some sort.
+
+Chapter Whatever
+        Check character positions of uparrows in FSTRPOS chapter.
+
